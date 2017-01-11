@@ -1,6 +1,18 @@
 body {
   font-family: 'Noto Sans', sans-serif;
-  background: #F4F4F4;
+  background: #fff;
+}
+
+.home {
+    background: #f7f7f7;
+}
+
+a {
+  color: #2ecc71;
+}
+
+a:hover, a:focus, a:active {
+  color: #27ae60;
 }
 
 header {
@@ -30,6 +42,8 @@ header {
 }
 
 .label {
+  display: inline-block;
+  margin: 0 0 0.5rem 0;
   font-size: 80%;
   font-weight: 400;
 }
@@ -70,13 +84,20 @@ header {
   margin: 2em 0;
 }
 
+.folio-detail {
+  margin: 2em 0;
+  border: 1px solid #ccc;
+}
+
 .card {
   padding: 10px;
   background: #fff;
   margin-bottom: 30px;
+  border: 1px solid #ecf0f1;
 }
 
 footer {
+  margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   background: #bec3c7;
